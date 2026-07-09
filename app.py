@@ -54,3 +54,59 @@ if page == "Project Overview":
 
     st.write("### Dataset Preview")
     st.dataframe(df.head())
+# -----------------------------
+# Sales Analysis
+# -----------------------------
+elif page == "Sales Analysis":
+
+    st.header("📊 Sales Analysis")
+
+    # Category Sales
+    st.subheader("Sales by Category")
+
+    category_sales = (
+        df.groupby("Category")["Sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    fig1, ax1 = plt.subplots(figsize=(8,5))
+
+    category_sales.plot(
+        kind="bar",
+        ax=ax1
+    )
+
+    ax1.set_xlabel("Category")
+    ax1.set_ylabel("Sales")
+    ax1.set_title("Total Sales by Category")
+
+    st.pyplot(fig1)
+
+    st.dataframe(category_sales)
+
+    st.divider()
+
+    # Region Sales
+    st.subheader("Sales by Region")
+
+    region_sales = (
+        df.groupby("Region")["Sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    fig2, ax2 = plt.subplots(figsize=(8,5))
+
+    region_sales.plot(
+        kind="bar",
+        ax=ax2
+    )
+
+    ax2.set_xlabel("Region")
+    ax2.set_ylabel("Sales")
+    ax2.set_title("Total Sales by Region")
+
+    st.pyplot(fig2)
+
+    st.dataframe(region_sales)
