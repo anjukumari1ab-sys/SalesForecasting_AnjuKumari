@@ -90,6 +90,53 @@ The deployed dashboard includes:
 - Project Information
 
 ---
+## Results
+
+### Sales by Category
+
+![Sales by Category](charts/sales_by_category.png)
+
+---
+
+### Sales by Region
+
+![Sales by Region](charts/sales_by_region.png)
+
+---
+
+### Monthly Sales Trend
+
+![Monthly Sales Trend](charts/monthly_sales_trend.png)
+
+---
+
+### SARIMA Forecast
+
+![SARIMA Forecast](charts/sarima_forecast.png)
+
+---
+
+### Prophet Forecast
+
+![Prophet Forecast](charts/prophet_forecast.png)
+
+---
+
+### XGBoost Forecast
+
+![XGBoost Forecast](charts/xgboost_forecast.png)
+
+---
+
+### Product Segmentation using K-Means
+
+![KMeans](charts/kmeans_product_segmentation.png)
+
+---
+
+### Sales Anomaly Detection
+
+![Anomaly](charts/anomaly_detection.png)
 
 ## 📁 Repository Structure
 
