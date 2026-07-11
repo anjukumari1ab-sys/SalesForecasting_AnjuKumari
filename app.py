@@ -72,8 +72,9 @@ st.caption("Preview of the filtered dataset based on the selected filters.")
 st.dataframe(filtered_df.head(10))
 
 st.write(
-    f"Rows: {filtered_df.shape[0]} | Columns: {filtered_df.shape[1]}"
-)st.markdown("---")
+    f"Rows: {filtered_df.shape[0]} | Columns: {filtered_df.shape[1]}")
+
+st.markdown("---")
 st.header("Sales by Category")
 st.caption("Comparison of total sales across product categories.")
 category_sales = (
