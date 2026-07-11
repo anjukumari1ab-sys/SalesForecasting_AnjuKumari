@@ -42,56 +42,38 @@ Records: **9800**
 
 ---
 
-# 📈 Visualizations
+# 📊 Project Visualizations
 
-## 1. Sales by Category
+During the project, the following visualizations were generated for exploratory data analysis, forecasting, anomaly detection, clustering, and model evaluation.
 
-![Sales by Category](sales_by_category.png)
+## Exploratory Data Analysis (EDA)
+- Monthly Sales Time Series
+- Monthly Sales Trend
+- Sales by Category
+- Sales by Region
+- Sales by Sub-Category
+- Sales by Customer Segment
+- Distribution of Shipping Time
+- Average Shipping Days by Region
 
----
+## Product Segmentation
+- Elbow Method for K-Means Clustering
+- Product Demand Segmentation using K-Means
 
-## 2. Sales by Region
+## Sales Anomaly Detection
+- Sales Anomaly Detection
+- Sales Anomaly Detection using Z-Score
 
-![Sales by Region](sales_by_region.png)
+## Sales Forecasting
+- SARIMA Forecast Evaluation
+- Facebook Prophet Forecast
+- Prophet Model Evaluation
+- XGBoost Forecast
+- 3-Month Sales Forecast by Category and Region
 
----
-
-## 3. Monthly Sales Trend
-
-![Monthly Sales Trend](monthly_sales_trend.png)
-
----
-
-## 4. SARIMA Forecast
-
-![SARIMA Forecast](sarima_forecast.png)
-
----
-
-## 5. Prophet Forecast
-
-![Prophet Forecast](prophet_forecast.png)
-
----
-
-## 6. XGBoost Forecast
-
-![XGBoost Forecast](xgboost_prediction.png)
-
----
-
-## 7. Sales Anomaly Detection
-
-![Sales Anomaly Detection](anomaly_detection.png)
-
----
-
-## 8. Product Demand Segmentation (K-Means)
-
-![K-Means Clustering](kmeans_product_segmentation.png)
-
----
-
+## Model Evaluation
+- Feature Importance (XGBoost)
+- Model Comparison using MAPE
 # 🤖 Machine Learning Models Used
 
 - SARIMA
