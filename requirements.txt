@@ -1,4 +1,8 @@
 streamlit
 pandas
-matplotlib
 numpy
+matplotlib
+scikit-learn
+statsmodels
+prophet
+xgboost
