@@ -1,158 +1,170 @@
-# 📊 End-to-End Sales Forecasting & Demand Intelligence System
+# 📊 Sales Forecasting & Demand Intelligence System
 
-## 📌 Project Overview
-
-This project focuses on building an end-to-end sales forecasting and demand intelligence system using the Superstore Sales dataset. The objective is to analyze historical sales data, forecast future sales, detect anomalies, segment products based on demand patterns, and present the results through an interactive Streamlit dashboard.
+An end-to-end Machine Learning project for analyzing historical retail sales, forecasting future demand, detecting anomalies, and segmenting products using multiple machine learning models.
 
 ---
 
-## 🎯 Problem Statement
+# 🚀 Project Overview
 
-Retail businesses need accurate sales forecasting to optimize inventory, reduce stock shortages, and improve business decision-making. This project develops a complete forecasting pipeline using statistical and machine learning techniques.
+This project analyzes the Superstore Sales Dataset to discover business insights and forecast future sales using different forecasting techniques.
+
+The project includes:
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Sales Trend Analysis
+- Sales Forecasting
+- Anomaly Detection
+- Product Demand Segmentation
+- Interactive Streamlit Dashboard
 
 ---
 
-## 📂 Dataset
-
-- Superstore Sales Dataset
-- Historical sales records
-- Multiple product categories
-- Multiple regions
-- Time-series sales data
-
----
-
-## ⚙️ Technologies Used
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Scikit-learn
-- Statsmodels
-- Prophet
+- Scikit-Learn
 - XGBoost
+- Facebook Prophet
+- SARIMA
 - Streamlit
-- GitHub
 
 ---
 
-## 🚀 Project Workflow
+# 📂 Dataset
 
-1. Data Cleaning & Preprocessing
-2. Exploratory Data Analysis (EDA)
-3. Time Series Analysis
-4. Sales Forecasting using:
-   - SARIMA
-   - Facebook Prophet
-   - XGBoost
-5. Model Evaluation
-6. Category & Region Forecasting
-7. Anomaly Detection
-8. Product Demand Segmentation
-9. Streamlit Dashboard Deployment
+**Dataset Used:** Superstore Sales Dataset
+
+Records: **9800**
 
 ---
 
-## 📈 Features
+# 📈 Visualizations
 
-- Interactive Dashboard
+## 1. Sales by Category
+
+![Sales by Category](sales_by_category.png)
+
+---
+
+## 2. Sales by Region
+
+![Sales by Region](sales_by_region.png)
+
+---
+
+## 3. Monthly Sales Trend
+
+![Monthly Sales Trend](monthly_sales_trend.png)
+
+---
+
+## 4. SARIMA Forecast
+
+![SARIMA Forecast](sarima_forecast.png)
+
+---
+
+## 5. Prophet Forecast
+
+![Prophet Forecast](prophet_forecast.png)
+
+---
+
+## 6. XGBoost Forecast
+
+![XGBoost Forecast](xgboost_prediction.png)
+
+---
+
+## 7. Sales Anomaly Detection
+
+![Sales Anomaly Detection](anomaly_detection.png)
+
+---
+
+## 8. Product Demand Segmentation (K-Means)
+
+![K-Means Clustering](kmeans_product_segmentation.png)
+
+---
+
+# 🤖 Machine Learning Models Used
+
+- SARIMA
+- Facebook Prophet
+- XGBoost
+- Isolation Forest (Anomaly Detection)
+- K-Means Clustering
+
+---
+
+# 📊 Dashboard Features
+
 - KPI Cards
-- Monthly Sales Trend
-- Sales by Category
-- Sales by Region
-- Region & Category Filters
-- Forecast Summary
-- Product Demand Analysis
-
----
-
-## 📊 Best Performing Model
-
-Among all forecasting models, **SARIMA** achieved the best forecasting performance based on the evaluation metrics.
-
-- MAE: **18031.40**
-- MAPE: **18.97%**
-
----
-
-## 📱 Streamlit Dashboard
-
-The deployed dashboard includes:
-
+- Region Filter
+- Category Filter
 - Dataset Preview
-- Interactive Filters
-- KPI Cards
-- Monthly Sales Trend
 - Sales by Category
 - Sales by Region
+- Monthly Sales Trend
 - Forecast Summary
 - Project Information
 
 ---
-## Results
 
-### Sales by Category
-
-![Sales by Category](charts/sales_by_category.png)
-
----
-
-### Sales by Region
-
-![Sales by Region](charts/sales_by_region.png)
-
----
-
-### Monthly Sales Trend
-
-![Monthly Sales Trend](charts/monthly_sales_trend.png)
-
----
-
-### SARIMA Forecast
-
-![SARIMA Forecast](charts/sarima_forecast.png)
-
----
-
-### Prophet Forecast
-
-![Prophet Forecast](charts/prophet_forecast.png)
-
----
-
-### XGBoost Forecast
-
-![XGBoost Forecast](charts/xgboost_forecast.png)
-
----
-
-### Product Segmentation using K-Means
-
-![KMeans](charts/kmeans_product_segmentation.png)
-
----
-
-### Sales Anomaly Detection
-
-![Anomaly](charts/anomaly_detection.png)
-
-## 📁 Repository Structure
+# 📁 Project Structure
 
 ```
 SalesForecasting_AnjuKumari/
-
-│── Sales_Forecasting_Analysis.ipynb
-│── app.py
-│── requirements.txt
-│── sales_cleaned.csv
-│── train.csv
-│── README.md
+│
+├── app.py
+├── requirements.txt
+├── Sales_Forecasting_Analysis.ipynb
+├── sales_cleaned.csv
+├── train.csv
+├── sales_by_category.png
+├── sales_by_region.png
+├── monthly_sales_trend.png
+├── sarima_forecast.png
+├── prophet_forecast.png
+├── xgboost_prediction.png
+├── anomaly_detection.png
+├── kmeans_product_segmentation.png
+└── README.md
 ```
 
 ---
 
-## 👩‍💻 Developed By
+# ▶️ Run the Project
+
+Install the dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run Streamlit
+
+```bash
+streamlit run app.py
+```
+
+---
+
+# 🌐 Live Demo
+
+Streamlit Dashboard:
+
+**https://salesforecasting-anju.streamlit.app/**
+
+---
+
+# 👩‍💻 Developed By
 
 **Anju Kumari**
+
+End-to-End Sales Forecasting & Demand Intelligence System
